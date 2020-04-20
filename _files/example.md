@@ -10,7 +10,7 @@ Example answer context/purpose
 
 Example answer how
 
-![example_sketch](/data-science-quiz-images/example.png)
+![example_sketch]({{ site.baseurl }}/data-science-quiz-images/example.png)
 
 {% include pros-cons.md title=page.title %}
 

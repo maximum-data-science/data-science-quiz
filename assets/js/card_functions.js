@@ -79,6 +79,7 @@ function getCardsCsv() {
 
             var strQuestion = htmlQuestion.replace(/["]/g, "'");
             var strAnswer = htmlAnswer.replace(/["]/g, "'");
+            var strAnswer = htmlAnswer.replace(/{{ *site\.baseurl *}}/g, "'");
             return `"${strQuestion}","${strAnswer}"`;
         })
         .get()
