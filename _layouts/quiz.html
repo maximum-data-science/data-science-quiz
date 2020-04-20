@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <div class="card-buttons">
+        <button id="show-answer">Show Answer</button>
+        <button id="known">Known</button>
+        <button id="unknown">Unknown</button>
+    </div>
+
+    <div>
+        <button id="reset">Reset</button>
+        <button id="save">Save Results as Cookie</button>
+        <button id="start">Start</button>
+    </div>
+
+    {%- include footer.html -%}
+    <script src="{{ site.baseurl}}/assets/js/card_functions.js"></script>
+    <script src="{{ site.baseurl}}/assets/js/quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Flashcards
+---
+
+<div class="deck">
+    {% for file in site.files %}
+    <a href="{{site.baseurl}}{{ file.url }}">{{ file.title }}</a>
+    <div class="file">
+        {{ file.content }}
+    </div>
+    {% endfor %}
+</div>
+
+<label>CSV Preview</label>
+<textarea class="csv-preview" rows="8" cols="80"></textarea>
+
+
+
+<p><a id="download-csv" href="#">Export CSV</a> <a id="download-images" href="{{site.baseurl}}assets/download/images.zip">Export Images</a></p>
+
+<script src="{{ site.baseurl}}/assets/js/card_functions.js"></script>
+<script src="{{ site.baseurl}}/assets/js/csv_export.js"></script>

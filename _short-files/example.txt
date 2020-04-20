@@ -1,0 +1,15 @@
+---
+title: Example Subject
+layout: file
+---
+{% include what.md title=page.title %}
+
+Example answer context/purpose
+
+{% include how.md title=page.title %}
+
+Example answer how
+
+{% include pros-cons.md title=page.title %}
+
+Example answer pros/cons

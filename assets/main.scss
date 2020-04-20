@@ -1,0 +1,32 @@
+---
+---
+@import  "minima";
+
+.site-title, .site-title:visited {
+    color: white;
+}
+.site-nav .page-link {
+  color: #ffffff;
+}
+.site-nav {
+    background-color: #444;
+}
+.site-nav .menu-icon > svg {
+    fill: #ffffff;
+}
+
+footer a,footer a:hover,footer a:visited  {
+    color: white;
+}
+
+.footer-links {
+    margin: 0 0 0 0em;
+    padding: 0;
+    float: right;
+    text-align: right;
+}
+
+.footer-links>li {
+    padding-right: 1em;
+    display: inline-block;
+}

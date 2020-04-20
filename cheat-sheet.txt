@@ -1,0 +1,8 @@
+---
+layout: none
+title: Flashcards
+---
+{% for file in site.short-files %}
+H1: {{ file.title}}
+{{ file.content }}
+{% endfor %}

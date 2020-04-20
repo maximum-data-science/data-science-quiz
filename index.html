@@ -1,0 +1,22 @@
+---
+layout: quiz
+title: Quiz
+---
+
+<div class="summary">
+    <p id="roundSummary"></p>
+    <p id="gameSummary"></p>
+</div>
+
+<div class="setup">
+    <label for="numCardsInRound">Questions per round.</label>
+    <input type="number" id="numCardsInRound" min="1" max="100" value="10">
+</div>
+
+<div class="deck">
+    {% for file in site.files %}
+    <div class="file">
+        {{ file.content }}
+    </div>
+    {% endfor %}
+</div>

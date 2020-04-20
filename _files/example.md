@@ -1,0 +1,17 @@
+---
+title: Example Subject
+layout: file
+---
+{% include what.md title=page.title %}
+
+Example answer context/purpose
+
+{% include how.md title=page.title %}
+
+Example answer how
+
+![example_sketch](/data-science-quiz-images/example.png)
+
+{% include pros-cons.md title=page.title %}
+
+Example answer pros/cons
