@@ -14,6 +14,8 @@ Example answer context/purpose
 
 Example answer how
 
+![example_sketch](/data-science-quiz-images/example.png)
+
 
 ## Pros / Cons
 

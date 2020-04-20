@@ -44,5 +44,3 @@ serve:
 clean:
 	rm -fr _site/
 	rm -fr .sass_cache
-	rm -fr _short-files/*
-	rm -fr _site
