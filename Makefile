@@ -28,9 +28,9 @@ export-images:
 	zip -r assets/download/images.zip data-science-quiz-images/*
 
 check:
-	$(JEKYLL) build
+	$(JEKYLL) build --baseurl=""
 	$(JEKYLL) doctor
-	$(HTMLPROOF) --assume-extension _site
+	$(HTMLPROOF) --assume-extension --url-ignore "#" _site
 
 install:
 	$(BUNDLE) install
