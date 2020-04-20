@@ -16,7 +16,7 @@
 title: Data Science Quiz
 email: jim108@gmx.net
 description: >- # this means to ignore newlines until A quick test and as a preparation for data science interviews with Anki export.
-baseurl: "data-science-quiz" # the subpath of your site, e.g. /blog
+baseurl: "/data-science-quiz" # the subpath of your site, e.g. /blog
 url: "https://maximum-data-science.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
