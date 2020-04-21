@@ -10,7 +10,7 @@ The main functions are:
 - Anki package download for direct import.
 - Creation of a markdown cheat-sheet with short term sections instead of long questions for printing and further processing.
 
-A demo is available under [https://maximum-data-science.github.io](https://maximum-data-science.github.io/data-science-quiz)
+A demo is available under [https://maximum-data-science.github.io/data-science-quiz](https://maximum-data-science.github.io/data-science-quiz)
 
 Used technologies are:
 - [jekyll](https://github.com/jekyll/jekyll) / [minima](https://github.com/jekyll/minima) theme.
