@@ -41,6 +41,11 @@ update:
 serve:
 	$(JEKYLL) serve --draft --baseurl ''
 
+git:
+	git add .
+	git commit -m "$m"
+	git push -u origin master
+
 clean:
 	rm -fr _site/
 	rm -fr .sass_cache

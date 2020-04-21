@@ -1,6 +1,6 @@
 {% assign vowels = "aeiouAEIUO" %}
-{% assign letters = include.title | split: "" %}
-{% if vowels  contains  letters[0] %}
+{% assign first_letter = include.title | slice: 0 %}
+{% if vowels  contains  first_letter %}
 {% assign article = "an" %}
 {% else %}
 {% assign article = "a" %}
